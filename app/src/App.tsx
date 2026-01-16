@@ -1,7 +1,13 @@
-import React from "react";
+import Header from "./core/layout/Header";
+import AppRouter from "./providers/RouterProvider";
 
-const App: React.FC = () => {
-  return <div>App</div>;
+const App = () => {
+  return (
+    <div>
+      <Header />
+      <AppRouter />
+    </div>
+  );
 };
 
 export default App;
